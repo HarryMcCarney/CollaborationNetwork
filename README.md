@@ -54,6 +54,8 @@ We can see that nodes 7 and 9 are spending a good deal of time in meetings with 
 
 Further filtering and an alternative layout shows that while node 3 has less total connections than 9, they are spending a large amount of time in meetings with distinct groups. Perhaps nodes 1,2 and 7,8 should have a regular catchup to reduce pressure on node 3. 
 
+![Alt text](image-4.png)
+
 ## Further analysis
 Other data sources such as calendar events and document collaboration could also be mined to refine the network.
 These techniques would work better in very large companies and would need to be combined with other "people" data. It also cant produce unambiguous results and network diagrams would always need substantial interpretation.
