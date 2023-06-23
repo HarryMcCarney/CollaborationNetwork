@@ -1,7 +1,7 @@
 # Collaboration network
-Quick proof of concept showing collaboration network by analysing Slack and Google Meets data.  
+Quick proof of concept showing collaboration network by analysing Slack and Google Meets data. 
 
-Companies have an official org chart but most of the collaboration is done through informal cooperation.  This collaboration network is often hidden from senior management and as a result, many company-wide initiatives such as digital transformation, mergers, and reorgs fail. 
+Companies have an official org chart but most of the collaboration is done through informal cooperation. This collaboration network is often hidden from senior management and as a result, many company-wide initiatives such as digital transformation, mergers, and reorgs fail. 
 
 Knowing how information flows and collaboration really happens is essential, especially at a time when more and more companies are worried about the creative impact of remote work.
 
@@ -19,7 +19,7 @@ Edges are weighted according to the number of messages between the nodes.
 
 The network is produced in BuildSlackGraph.fsx and visualised in VisualiseGraph.fsx
 
-I have replaced the team member names with numbers to protect anonnyimity.
+I have replaced the team member names with numbers to protect anonymity.
 
 ![Alt text](image.png)
 
@@ -28,7 +28,7 @@ It shows that node 5 is playing a crucial role. This may be a strength or weakne
 
 ![Alt text](image-1.png)
 
-Node 5 could well be a bottle next in this team. At the very least they probably feel overloaded and the team would work more efficiently with greater collaboration between other members. For example, nodes 1, 4, and 11 should probably have at least one direct link between them.  
+Node 5 could well be a bottle next in this team. At the very least they probably feel overloaded and the team would work more efficiently with greater collaboration between other members. For example, nodes 1, 4, and 11 should probably have at least one direct link between them. 
 
 Of course, Slack usage is not the whole story. Many people don't use it much or are primarily ["System 2"](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) workers who actively avoid giving and receiving interruptions via Slack. 
 
